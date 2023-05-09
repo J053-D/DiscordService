@@ -6,8 +6,7 @@ const currentDate = new Date();
 function validateSubscription() {
 
     var myHeaders = new Headers();
-    myHeaders.append("Authorization", "Bot MTEwMDE5NzM0NzU3NDY4MTYyNA.GW9-ri.Zco15oDt7XRdT7yhngWlSBEeIFJOw3mKwQq88k");
-    myHeaders.append("Cookie", "__cfruid=2b1947f352e449974ad8953dd7c01412c391d0d4-1683591410; __dcfduid=a2d952f8e45011ed99d0b27d0c552fe0; __sdcfduid=a2d952f8e45011ed99d0b27d0c552fe0792cc7050229cb5fe380aba3e1ed55402bbdafc3fce3591ad431a7a2c9fe3efa");
+    myHeaders.append("Authorization", "Bot MTEwMDE5NzM0NzU3NDY4MTYyNA.GFbP0T.rGC_nkoVeNGiUI4rdiZg8kCRxxhygbUyyA7eDM");
  
     var requestOptions = {
         method: 'PUT',
